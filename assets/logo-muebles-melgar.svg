@@ -1,0 +1,16 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Muebles Melgar</title>
+  <desc id="desc">Logo tipografico de Muebles Melgar, fabricacion de muebles a medida.</desc>
+  <g transform="translate(10 14)">
+    <path d="M0 18C0 8.059 8.059 0 18 0H90V90H18C8.059 90 0 81.941 0 72V18Z" fill="#22201D"/>
+    <path d="M18 18H40V72H18V18Z" fill="#B47A45"/>
+    <path d="M48 18H72V40H48V18Z" fill="#E5D4BD"/>
+    <path d="M48 48H72V72H48V48Z" fill="#8FA08C"/>
+    <path d="M10 82H80" stroke="#E5D4BD" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(122 25)">
+    <text x="0" y="36" fill="#22201D" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0">Muebles</text>
+    <text x="0" y="72" fill="#B47A45" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="800" letter-spacing="0">Melgar</text>
+    <path d="M172 68H286" stroke="#8FA08C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
