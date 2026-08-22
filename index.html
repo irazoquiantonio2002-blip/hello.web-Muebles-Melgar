@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muebles Melgar | Closets, cocinas y muebles de oficina a medida</title>
+  <meta name="description" content="Muebles Melgar fabrica closets, cocinas y muebles de oficina a medida con acabados modernos, alta calidad y soluciones personalizadas para hogares y empresas.">
+  <meta name="keywords" content="Muebles Melgar, muebles a medida, closets a medida, cocinas integrales, muebles de oficina, fabricacion de muebles">
+  <meta property="og:title" content="Muebles Melgar | Muebles a medida de alta calidad">
+  <meta property="og:description" content="Closets, cocinas y muebles de oficina fabricados a medida para crear espacios funcionales, esteticos y duraderos.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <img src="assets/logo-muebles-melgar.svg" alt="">
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Preparando tu espacio...</span>
+  </div>
+
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="Muebles Melgar - inicio">
+          <img src="assets/logo-muebles-melgar.svg" alt="Muebles Melgar" class="nav-logo-img">
+        </a>
+
+        <nav aria-label="Navegacion principal">
+          <ul class="nav-links">
+            <li><a href="#why">Diferencia</a></li>
+            <li><a href="#ambientes">Soluciones</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#producto">Acabados</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Solicitar cotización
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mob-menu" aria-label="Menu movil">
+      <a href="#why">Diferencia</a>
+      <a href="#ambientes">Soluciones</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#producto">Acabados</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Solicitar cotización</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Fabricantes de closets, cocinas y oficinas
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Muebles que</span></span>
+            <span class="line"><span>encajan con</span></span>
+            <span class="line"><span class="accent">tu forma de vivir.</span></span>
+          </h1>
+
+          <p class="hero-sub" id="hero-sub">
+            En <strong>Muebles Melgar</strong> fabricamos soluciones a medida con diseño moderno, acabados personalizados y calidad pensada para espacios que se usan todos los días.
+          </p>
+
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Cotizar mi proyecto
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-layer-group" style="font-size:15px; color:var(--muted);"></i>
+              Ver soluciones
+            </a>
+          </div>
+
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-ruler-combined"></i>
+              Diseño a medida
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-hammer"></i>
+              Fabricación directa
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-building-user"></i>
+              Hogares y empresas
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">La diferencia</div>
+            <h2 class="why-quote" id="why-heading">
+              Un buen mueble no solo ocupa un espacio:
+              <em> lo ordena, lo eleva y lo vuelve más tuyo.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Cada proyecto parte de tus medidas, necesidades y estilo. Por eso Muebles Melgar no ofrece piezas genéricas: fabrica soluciones funcionales y estéticas para que cada rincón trabaje mejor.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-pen-ruler"></i></div>
+            <h3>Personalización real</h3>
+            <p>Diseños, distribuciones y acabados definidos alrededor del espacio y del uso que necesitas resolver.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-kitchen-set"></i></div>
+            <h3>Estética funcional</h3>
+            <p>Cocinas, closets y oficinas pensadas para verse bien, durar y facilitar la rutina diaria.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-industry"></i></div>
+            <h3>Fabricantes directos</h3>
+            <p>Al producir los muebles, la marca puede cuidar mejor los detalles, materiales y estándares de calidad.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-gem"></i></div>
+            <h3>Acabados modernos</h3>
+            <p>Combinaciones de tonos, texturas y superficies que se adaptan a estilos residenciales y corporativos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Soluciones a medida</div>
+            <h2 class="section-title" id="amb-heading">
+              Tres líneas principales,<br>
+              <span class="gold">un mismo estándar de calidad</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Elige el tipo de proyecto y Muebles Melgar lo adapta a tus medidas, acabados y necesidades de uso.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">Diseño + fabricación</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+          <div class="amb-card reveal">
+            <img class="amb-img" src="A50D62ED1EFFDE9F8E0D7FC0A5E5B858.jpeg" alt="Closet de madera con iluminacion y almacenamiento a medida">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-door-closed"></i></div>
+              <h3>Closets a medida</h3>
+              <p>Organización elegante para recámaras, vestidores y espacios donde cada centímetro importa.</p>
+              <div class="amb-temp">Distribución interior + acabados personalizados</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d1">
+            <img class="amb-img" src="A519EA230BF8264B869219518A6EE679.jpeg" alt="Cocina integral moderna con gabinetes en tonos madera y gris">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-kitchen-set"></i></div>
+              <h3>Cocinas integrales</h3>
+              <p>Diseños funcionales para cocinar, almacenar y convivir con una imagen limpia y contemporánea.</p>
+              <div class="amb-temp">Módulos, cubiertas y soluciones de guardado</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d2">
+            <img class="amb-img" src="A5D69565A14B9272359A0CD381D36542.jpeg" alt="Mobiliario moderno con superficies claras y acabado brillante">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-briefcase"></i></div>
+              <h3>Muebles de oficina</h3>
+              <p>Soluciones para empresas que buscan espacios eficientes, modernos y alineados a su operación.</p>
+              <div class="amb-temp">Recepciones, escritorios, almacenamiento y módulos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            De la idea al mueble final, <span class="gold">con claridad</span>
+          </h2>
+          <p>Un proceso sencillo para convertir medidas, gustos y necesidades en una solución fabricada especialmente para tu espacio.</p>
+        </div>
+
+        <div class="proceso-grid">
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Escuchamos tu proyecto</h3>
+            <p>Revisamos qué necesitas resolver: almacenamiento, distribución, estilo, tipo de espacio y prioridad de uso.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Definimos diseño y acabados</h3>
+            <p>Aterrizamos materiales, tonos, módulos y detalles visuales para que el mueble se integre al entorno.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Fabricamos con calidad</h3>
+            <p>Como fabricantes, cuidamos la ejecución y los estándares para entregar piezas funcionales, estéticas y duraderas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+          <div class="reveal">
+            <div class="label">Acabados y detalle</div>
+            <h2 class="section-title" id="prod-heading">
+              Diseño moderno<br>
+              <span class="gold">sin perder funcionalidad</span>
+            </h2>
+            <p class="producto-lead">
+              La propuesta de Muebles Melgar se centra en muebles que se sienten integrados al espacio: proporciones limpias, superficies prácticas y acabados elegidos por el cliente.
+            </p>
+
+            <ul class="feature-rows" aria-label="Beneficios de los muebles Muebles Melgar">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-swatchbook"></i></div>
+                <div>
+                  <h4>Acabados alineados a tu estilo</h4>
+                  <p>Combinaciones sobrias, cálidas o corporativas según el ambiente que quieras crear.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-maximize"></i></div>
+                <div>
+                  <h4>Aprovechamiento del espacio</h4>
+                  <p>Soluciones pensadas para medidas reales, circulación y necesidades de almacenamiento.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+                <div>
+                  <h4>Calidad de fabricación</h4>
+                  <p>Control de detalles desde la producción para sostener un resultado consistente.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-people-roof"></i></div>
+                <div>
+                  <h4>Para particulares y empresas</h4>
+                  <p>Proyectos residenciales y espacios de trabajo con una misma prioridad: funcionalidad con diseño.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Resumen de servicio">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">3</span>
+                <span class="spec-name">Líneas clave</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">1</span>
+                <span class="spec-name">Fabricante</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">2</span>
+                <span class="spec-name">Segmentos</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">100%</span>
+                <span class="spec-name">A medida</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body" role="img" aria-label="Cocina moderna fabricada a medida por Muebles Melgar"></div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Cocinas, closets y oficinas
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-check" style="color:var(--gold);"></i>
+                Proyecto personalizado
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" aria-label="Datos clave de Muebles Melgar">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="3" data-suffix="" aria-label="3 lineas de muebles">0</div>
+            <div class="stat-lbl">Closets, cocinas<br>y oficinas</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="100" data-suffix="%" aria-label="100 por ciento a medida">0</div>
+            <div class="stat-lbl">Diseños<br>a medida</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="2" data-suffix="" aria-label="2 tipos de cliente">0</div>
+            <div class="stat-lbl">Hogares<br>y empresas</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="1" data-suffix="" aria-label="1 fabricante directo">0</div>
+            <div class="stat-lbl">Fabricante<br>directo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+        <div class="sectores-hdr reveal">
+          <div class="label">Aplicaciones</div>
+          <h2 class="section-title" id="sec-heading">
+            Muebles para <span class="gold">espacios que trabajan mejor</span>
+          </h2>
+          <p>Desde una cocina familiar hasta un entorno corporativo, cada solución se adapta al uso real del lugar.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-house sector-icon" aria-hidden="true"></i>
+            <h3>Hogares</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-door-closed sector-icon" aria-hidden="true"></i>
+            <h3>Recámaras</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-kitchen-set sector-icon" aria-hidden="true"></i>
+            <h3>Cocinas</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-building sector-icon" aria-hidden="true"></i>
+            <h3>Oficinas</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-briefcase sector-icon" aria-hidden="true"></i>
+            <h3>Empresas</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Cuéntanos qué mueble <span class="gold">quieres fabricar</span>
+          </h2>
+          <p>Comparte el tipo de proyecto, medidas aproximadas o idea general. El siguiente paso es convertirlo en una propuesta clara.</p>
+        </div>
+
+        <div class="contact-box reveal">
+          <div class="contact-info">
+            <h3>Atención personalizada</h3>
+            <p class="ci-sub">Muebles Melgar trabaja con clientes particulares y empresas que buscan piezas hechas a medida, funcionales y con buena presencia.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-couch"></i></div>
+                <div class="ci-body">
+                  <h4>Especialidades</h4>
+                  <p>Closets, cocinas integrales y muebles de oficina fabricados a medida.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-palette"></i></div>
+                <div class="ci-body">
+                  <h4>Personalización</h4>
+                  <p>Elige diseños y acabados que se alineen con tu estilo personal o identidad corporativa.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-circle-info"></i></div>
+                <div class="ci-body">
+                  <h4>Inicio del proyecto</h4>
+                  <p>Comparte tu idea, medidas aproximadas o tipo de espacio para preparar una propuesta alineada a tus necesidades.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h3>Solicitar cotización</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control" placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotización general</option>
+                    <option>Closet a medida</option>
+                    <option>Cocina integral</option>
+                    <option>Mueble de oficina</option>
+                    <option>Proyecto para empresa</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle del proyecto</label>
+                <textarea id="f-msg" class="form-control" rows="4" required placeholder="Describe medidas aproximadas, espacio, acabado deseado o necesidad principal..."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-solid fa-paper-plane"></i>
+                Preparar solicitud
+              </button>
+              <p class="form-note" id="form-note">
+                Al enviar se generará un resumen claro de tu solicitud para dar seguimiento por el canal oficial de Muebles Melgar.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="assets/logo-muebles-melgar.svg" alt="Muebles Melgar">
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Muebles Melgar. Fabricación de muebles a medida para hogares y empresas.
+        </p>
+        <div class="footer-socials">
+          <a href="#contacto" class="footer-soc" aria-label="Ir a contacto">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="#ambientes" class="footer-soc" aria-label="Ver soluciones">
+            <i class="fa-solid fa-layer-group"></i>
+          </a>
+          <a href="#producto" class="footer-soc" aria-label="Ver acabados">
+            <i class="fa-solid fa-swatchbook"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#contacto" class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
