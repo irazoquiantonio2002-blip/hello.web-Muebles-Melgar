@@ -163,7 +163,7 @@ form?.addEventListener("submit", async (event) => {
 
   try {
     await navigator.clipboard.writeText(summary);
-    formNote.textContent = "Solicitud preparada. El resumen quedó copiado para compartirlo por el canal oficial de Muebles Melgar.";
+    formNote.textContent = "Solicitud preparada. El resumen quedó copiado para compartirlo por el canal oficial de Closets y Cocinas de Pachuca.";
   } catch {
     formNote.textContent = summary;
   }
